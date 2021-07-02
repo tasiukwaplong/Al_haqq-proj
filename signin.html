@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+  <title>Sign in</title>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/signin.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+<body>
+  <!-- nav -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+        <a class="navbar-brand" href="index.html">Al-Haqq</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <form class="d-flex " >
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+    </div>          <div class="form-inline my-3 my-lg-0">
+               <a href="signin.html"class="btn btn-warning">Login</a>
+               
+               <a href="cart.html">
+                  <img  id="cart-icon" src="img/cart.png">
+              </a>
+              <p id="cart-total"> 0 </p>
+  
+          </div>
+        </div>
+      </div>
+      </nav>
+<!-- sign in -->
+   <main class="col-xs-12 col-sm-12 col-md-12 col-lg-12  form-signin py-5">
+  <form>
+    <!-- <img class="mb-4 b-flex justify-center" src="#" alt="" width="72" height="57"> -->
+    <h4 class="text-center">Please sign in</h4>
+
+    <div class="form-floating">
+      <label for="floatingInput">Email address</label>
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    </div>
+    <div class="form-floating">
+      <label for="floatingPassword">Password</label>
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="text-muted">Don't have an account? <a href="signup.html">sign up</a></p>
+  </form>
+</main>
+  </body>
+</html>
