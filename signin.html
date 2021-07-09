@@ -6,6 +6,8 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/logo.png">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -36,24 +38,34 @@
   <!-- nav -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-        <a class="navbar-brand" href="index.html">Al-Haqq</a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Al-Haqq"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
           
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Contact us </a>
+        </li>
+                
+      </ul>
           
-          <form class="d-flex " >
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-warning" type="submit">Search</button>
+          <form class="d-flex" >
+        <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-warning" type="submit"> Search </button>
       </form>
-    </div>          <div class="form-inline my-3 my-lg-0">
-               <a href="signin.html"class="btn btn-warning">Login</a>
-               
-               <a href="cart.html">
-                  <img  id="cart-icon" src="img/cart.png">
-              </a>
-              <p id="cart-total"> 0 </p>
+    </div>          
+    <div class="form-inline my-3 my-lg-0">
+       <a href="signin.html"class="btn btn-warning">Login</a>
+       
+       <a href="cart.html">
+          <img  id="cart-icon" src="img/cart.png">
+      </a>
+      <p id="cart-total"> 0 </p>
   
           </div>
         </div>
@@ -81,7 +93,59 @@
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     <p class="text-muted">Don't have an account? <a href="signup.html">sign up</a></p>
+    <div class="checkbox mb-3 text-center">
+      <label>
+          <a href="#">forget password</a>
+
+      </label>
+    </div>
   </form>
 </main>
+<footer id="foot">
+  <div class="container row text-white">
+    <div class="col-12 col-md py-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24">Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <small class="d-block mb-3 text-muted"> copyright &copy; 2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Categories</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Pc</a></li>
+        <li><a class="link-secondary" href="#">Printers</a></li>
+        <li><a class="link-secondary" href="#">Desktop Computer</a></li>
+        <li><a class="link-secondary" href="#">Game pad</a></li>
+        <li><a class="link-secondary" href="#">Computer Accessories</a></li>
+        <li><a class="link-secondary" href="#">Other Services</a></li>
+      </ul>
+    </div>
+  
+    <div class="col-6 col-md">
+      <h5>Hotlines</h5>
+      <ul class="list-unstyled text-small">
+        <li>0803 539 8562</li>
+        <li>08035613970</li>
+        <li>alhaqpcworldenterprise247
+        @gmail.com</li>
+        
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      
+      <ul class="list-unstyled text-small">
+        
+        <li>Location:  No. 14 Adog plaza beside Total filling Station Lafia Jos road Lafia Lafia
+Beriberi, Nigeria.</li>
+        <li><a class="link-secondary" href="#">Privacy</a></li>
+        <li><a class="link-secondary" href="#">Terms</a></li>
+      </ul>
+    </div>
+    <p class="text-center padding">Alhaqpc world entreprese is an entreprise that sales, supplies, marketing and repairs
+      computer system on cheaper and affordable price 
+      .we also deal with a solar system
+      services such as consulting, auditing and installation</p>
+  </div>
+
+</footer>
   </body>
 </html>
